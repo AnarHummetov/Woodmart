@@ -1,0 +1,11 @@
+@for $i from 1 through 20{
+    .wm-font-size-#{$i}{
+        font-size: 12.5px + $i/2;
+    }
+}
+
+@for $i from 1 through 20{
+    .icon-font-size-#{$i}{
+        font-size: 7.5px + $i/2;
+    }
+}

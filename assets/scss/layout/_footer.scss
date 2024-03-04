@@ -1,0 +1,92 @@
+footer{
+    background-color: #f7f7f7;
+}
+
+.text-block{
+    color: rgb(109, 109, 109);
+    font-size: 16px;
+}
+.footer-login-form {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 46px;
+    input{
+      padding: 0 15px;
+      max-width: 290px;
+      width: 100%;
+      height: 46px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      background-color: inherit;
+      box-shadow: none;
+      font-size: 14px;
+      color: inherit;
+      &:focus {
+        outline: none;
+        border-color: rgba(0, 0, 0, 0.15);
+      }
+    }
+    
+  }
+
+  .border-top{
+    border-top: 1px solid rgba(129, 129, 129, 0.2);
+  }
+
+  .footer-social-icons {
+    padding-left: 10px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.4);
+    .social-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid var(--border-color);
+      border-radius: 50%;
+      background-color: var(--bg-color);
+      color: inherit;
+      margin: 4px 8px 4px 0px;
+      width: 30px;
+      height: 30px;
+      transition: all 0.25s ease;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+    .social-facebook {
+      --border-color: #365493;
+      --bg-color: #365493;
+      color: #fff;
+    }
+    .social-twitter {
+      --border-color: #000;
+      --bg-color: #000;
+      color: #fff;
+    }
+    .social-pinterest {
+      --border-color: #bc2027;
+      --bg-color: #bc2027;
+      color: #fff;
+    }
+    .social-linkedin {
+      --border-color: #0274b3;
+      --bg-color: #0274b3;
+      color: #fff;
+    }
+    .social-telegram {
+      --border-color: #37aee2;
+      --bg-color: #37aee2;
+      color: #fff;
+    }
+  }
+
+  .footer-min{
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    color: rgb(109, 109, 109);
+    text-align: center;
+    a{
+        color: #333;
+    }
+  }
